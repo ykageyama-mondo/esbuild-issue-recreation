@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cdk deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "aws-cdk": "^2.147.2",
+    "esbuild": "^0.22.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.147.2",
+    "constructs": "^10.3.0",
+    "uuid": "^10.0.0"
+  }
+}
